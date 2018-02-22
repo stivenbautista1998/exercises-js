@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+.title-main {
+  text-align: center;
+  font-size: 5rem;
+}
+
+
+.section-index {
+  background: #999;
+  font-size: 2rem;
+  padding: 1em;
+  /*text-align: center;*/
+  display: flex;
+}
+
+.section-index__button {
+  padding: 1em;
+  background: #333;
+  margin: .2em;
+  text-align: center;
+}
+
+.section-index__content {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 3rem;
+  flex: auto;
+}
