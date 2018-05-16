@@ -4,30 +4,207 @@ html, body {
   font-size: 10px;
 }
 
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.header-section {
+  background: #0FB7E0;
+  padding: 5em;
+  margin-bottom: 5em;
+}
+
 .title-main {
   text-align: center;
-  font-size: 5rem;
+  font-size: 7rem;
 }
 
-
-.section-index {
-  background: #999;
-  font-size: 2rem;
-  padding: 1em;
-  /*text-align: center;*/
+.exercises-section__info {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.section-index__button {
-  padding: 1em;
-  background: #333;
-  margin: .2em;
-  text-align: center;
+.exercises-section__cont {
+  background: #0D93B4;
+  color: #FFF;
+  padding: .5em;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
 
-.section-index__content {
+.exercises-section {
+  background: #FFF;
+  font-size: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.exercises-section__item {
+  background: #43bc79;
+  padding: .5em;
+  margin: .5em;
+  flex: 0 1 200px;
+  height: 200px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: all .2s;
+}
+
+.exercises-section__item:hover {
+  transform: scale(1.1);
+}
+
+.exercises-section__link {
   text-decoration: none;
   color: #FFF;
-  font-size: 3rem;
-  flex: auto;
+  background: #777;
+  display: inline-block;
+  padding: .5em;
+  border-radius: 5px;
+}
+
+.exercises-section__link:hover {
+  background: #95FE07;
+  color: #000;
+}
+
+.size {
+  font-size: 1.7rem;
+}
+
+.exercises-section__img {
+  width: 100%;
+}
+
+.exercises-section__wrap-img {
+  width: 100%;
+  height: 70%; /*140px;*/
+  background-size: cover;
+}
+
+.exercise-1 {
+  background-image: url('images/exercise-1.png');
+}
+
+.exercise-2 {
+  background-image: url('images/exercise-2.png');
+}
+
+.exercise-3 {
+  background-image: url('images/exercise-3.png');
+}
+
+.exercise-4 {
+  background-image: url('images/exercise-4.png');
+}
+
+.exercise-5 {
+  background-image: url('images/exercise-5.png');
+}
+
+.exercise-6 {
+  background-image: url('images/exercise-6.png');
+}
+
+.exercise-7 {
+  background-image: url('images/exercise-7.png');
+}
+
+.exercise-8 {
+  background-image: url('images/exercise-8.png');
+}
+.exercise-9 {
+  background-image: url('images/exercise-9.png');
+}
+
+.exercise-n10 {
+  background-image: url('images/exercise-n10.png');
+}
+
+.exercise-n11 {
+  background-image: url('images/exercise-n11.png');
+}
+
+.exercise-n12 {
+  background-image: url('images/exercise-n12.png');
+}
+
+.exercise-n13 {
+  background-image: url('images/exercise-n13.png');
+}
+
+.exercise-n14 {
+  background-image: url('images/exercise-n14.png');
+}
+
+.exercise-n15 {
+  background-image: url('images/exercise-n15.png');
+}
+
+.exercise-n16 {
+  background-image: url('images/exercise-n16.png');
+}
+
+.exercise-n17 {
+  background-image: url('images/exercise-n17.png');
+}
+
+.exercise-n18 {
+  background-image: url('images/exercise-n18.png');
+}
+
+.exercise-n19 {
+  background-image: url('images/exercise-n19.png');
+}
+
+.exercise-n20 {
+  background-image: url('images/exercise-n20.png');
+}
+
+.exercise-n21 {
+  background-image: url('images/exercise-n21.png');
+}
+
+.exercise-n22 {
+  background-image: url('images/exercise-n22.png');
+}
+
+.exercise-n23 {
+  background-image: url('images/exercise-n23.png');
+}
+.exercise-n24 {
+  background-image: url('images/exercise-n24.png');
+}
+
+.exercise-n25 {
+  background-image: url('images/exercise-n25.png');
+}
+
+.exercise-n26 {
+  background-image: url('images/exercise-n26.png');
+}
+
+.exercise-n27 {
+  background-image: url('images/exercise-n27.png');
+}
+
+.exercise-n28 {
+  background-image: url('images/exercise-n28.png');
+}
+
+.exercise-n29 {
+  background-image: url('images/exercise-n29.png');
+}
+
+.exercise-n30 {
+  background-image: url('images/exercise-n30.png');
 }
