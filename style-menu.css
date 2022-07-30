@@ -27,14 +27,16 @@ html, body {
 }
 
 .exercises-section__cont {
+  width: 30px;
+  height: 30px;
   background: #0D93B4;
   color: #FFF;
   padding: .5em;
   border-radius: 50%;
   font-size: 1.5rem;
   display: flex;
-  flex-flow: column nowrap;
   justify-content: center;
+  align-items: center;
 }
 
 .exercises-section {
