@@ -210,3 +210,9 @@ html, body {
 .exercise-n30 {
   background-image: url('images/exercise-n30.png');
 }
+
+@media (max-width: 765px) {
+  .title-main {
+    font-size: 5rem;
+  }
+}
